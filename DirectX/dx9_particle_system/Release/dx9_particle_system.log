@@ -1,4 +1,4 @@
-﻿La génération a démarré 15/12/2012 19:40:42.
+﻿La génération a démarré 15/12/2012 21:48:19.
      1>Projet "C:\Users\Quentin\Desktop\GitHub\MTIDirectX2012\DirectX\dx9_particle_system\dx9_particle_system.vcxproj" sur le nœud 2 (Build cible(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dx9_particle_system.cpp
@@ -12,4 +12,4 @@
 
 La génération a réussi.
 
-Temps écoulé 00:00:00.69
+Temps écoulé 00:00:00.78

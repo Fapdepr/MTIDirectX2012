@@ -1,4 +1,4 @@
-﻿La génération a démarré 15/12/2012 17:56:01.
+﻿La génération a démarré 15/12/2012 22:00:53.
      1>Projet "C:\Users\Quentin\Desktop\GitHub\MTIDirectX2012\DirectX\dx9_particle_system\dx9_particle_system.vcxproj" sur le nœud 2 (Build cible(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt dx9_particle_system.cpp particlesystem.cpp
@@ -15,9 +15,11 @@
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/dx9_particle_system.exe" /NOLOGO d3dx9.lib d3d9.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/dx9_particle_system.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\dx9_particle_system.lib" /MACHINE:X86 /SAFESEH .\Debug\dx9_particle_system.res
          .\Debug/dx9_particle_system.obj
          .\Debug/particlesystem.obj
-     1>LINK : fatal error LNK1207: format PDB non compatible dans 'C:\Users\Quentin\Desktop\GitHub\MTIDirectX2012\DirectX\dx9_particle_system\Debug\dx9_particle_system.pdb' ; supprimez et régénérez
-     1>Génération du projet "C:\Users\Quentin\Desktop\GitHub\MTIDirectX2012\DirectX\dx9_particle_system\dx9_particle_system.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+         dx9_particle_system.vcxproj -> C:\Users\Quentin\Desktop\GitHub\MTIDirectX2012\DirectX\dx9_particle_system\.\Debug\dx9_particle_system.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug\dx9_particle_system.bsc" .\Debug\dx9_particle_system.sbr .\Debug\particlesystem.sbr
+     1>Génération du projet "C:\Users\Quentin\Desktop\GitHub\MTIDirectX2012\DirectX\dx9_particle_system\dx9_particle_system.vcxproj" terminée (Build cible(s)).
 
-ÉCHEC de la build.
+La génération a réussi.
 
-Temps écoulé 00:00:01.92
+Temps écoulé 00:00:05.54
