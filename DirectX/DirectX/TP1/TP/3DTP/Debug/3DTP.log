@@ -1,0 +1,14 @@
+﻿La génération a démarré 22/11/2012 18:15:41.
+     1>Projet "C:\Users\Quentin\Desktop\DirectX\TP1\TP\3DTP\3DTP.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\3DTP.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3DTP.cpp cube.cpp
+         cube.cpp
+     1>c:\users\quentin\desktop\directx\tp1\tp\3dtp\cube.h(4): fatal error C1083: Impossible d'ouvrir le fichier include : 'd3dx9.h' : No such file or directory
+         3DTP.cpp
+     1>c:\users\quentin\desktop\directx\tp1\tp\3dtp\cube.h(4): fatal error C1083: Impossible d'ouvrir le fichier include : 'd3dx9.h' : No such file or directory
+         Génération de code en cours...
+     1>Génération du projet "C:\Users\Quentin\Desktop\DirectX\TP1\TP\3DTP\3DTP.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:02.55
