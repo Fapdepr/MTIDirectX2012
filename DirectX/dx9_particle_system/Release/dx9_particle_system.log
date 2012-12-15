@@ -1,0 +1,19 @@
+﻿La génération a démarré 15/12/2012 17:06:33.
+     1>Projet "C:\Users\Quentin\Desktop\DirectX\dx9_particle_system\dx9_particle_system\dx9_particle_system\dx9_particle_system.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt particlesystem.cpp
+         particlesystem.cpp
+     1>particlesystem.cpp(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : voir la déclaration de 'strcpy'
+     1>particlesystem.cpp(227): warning C4101: 'pPlane' : variable locale non référencée
+     1>particlesystem.cpp(228): warning C4101: 'ppPlane' : variable locale non référencée
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/dx9_particle_system.exe" /NOLOGO d3dx9.lib d3d9.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release/dx9_particle_system.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\dx9_particle_system.lib" /MACHINE:X86 /SAFESEH .\Release\dx9_particle_system.res
+         .\Release/dx9_particle_system.obj
+         .\Release/particlesystem.obj
+         dx9_particle_system.vcxproj -> C:\Users\Quentin\Desktop\DirectX\dx9_particle_system\dx9_particle_system\dx9_particle_system\.\Release\dx9_particle_system.exe
+     1>Génération du projet "C:\Users\Quentin\Desktop\DirectX\dx9_particle_system\dx9_particle_system\dx9_particle_system\dx9_particle_system.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.69

@@ -1,0 +1,12 @@
+﻿La génération a démarré 15/12/2012 16:23:35.
+     1>Projet "C:\Users\Quentin\Desktop\DirectX\dx9_particle_system\dx9_particle_system\dx9_particle_system\dx9_particle_system.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/dx9_particle_system.exe" /NOLOGO d3dx9.lib d3d9.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/dx9_particle_system.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\dx9_particle_system.lib" /MACHINE:X86 /SAFESEH .\Debug\dx9_particle_system.res
+         .\Debug/dx9_particle_system.obj
+         .\Debug/particlesystem.obj
+     1>LINK : fatal error LNK1207: format PDB non compatible dans 'C:\Users\Quentin\Desktop\DirectX\dx9_particle_system\dx9_particle_system\dx9_particle_system\Debug\dx9_particle_system.pdb' ; supprimez et régénérez
+     1>Génération du projet "C:\Users\Quentin\Desktop\DirectX\dx9_particle_system\dx9_particle_system\dx9_particle_system\dx9_particle_system.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.22
