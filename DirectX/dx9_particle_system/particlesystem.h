@@ -154,7 +154,7 @@ private:
     float       m_fReleaseInterval;
     float       m_fLifeCycle;
     float       m_fSize;
-    D3DXCOLOR   m_clrColor;
+    D3DXCOLOR   m_clrColor;	
     D3DXVECTOR3 m_vPosition;
     D3DXVECTOR3 m_vVelocity;
     D3DXVECTOR3 m_vGravity;

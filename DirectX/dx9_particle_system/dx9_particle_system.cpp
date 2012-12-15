@@ -374,7 +374,7 @@ void init( void )
     D3DXMatrixPerspectiveFovLH( &matProj, D3DXToRadian( 45.0f ), 1.0f, 1.0f, 200.0f );
     g_pd3dDevice->SetTransform( D3DTS_PROJECTION, &matProj );
 
-	g_pd3dDevice->SetRenderState( D3DRS_LIGHTING,  FALSE );
+	g_pd3dDevice->SetRenderState( D3DRS_LIGHTING,  FALSE ); // ====> ??????????????????
 
 	//
 	// Create the floor geometry...
@@ -670,7 +670,7 @@ void render( void )
 	// QFR : socle useless
 	//g_pd3dDevice->SetStreamSource( 0, g_pVertexBuffer, 0, sizeof(Vertex) );
     //g_pd3dDevice->SetFVF( Vertex::FVF_Flags );
-    g_pd3dDevice->DrawPrimitive( D3DPT_TRIANGLESTRIP, 0, 2);
+    //g_pd3dDevice->DrawPrimitive( D3DPT_TRIANGLESTRIP, 0, 0);
 
 	//
 	// Prepare to render particle system
@@ -685,7 +685,8 @@ void render( void )
 	// to alpha blend with each other correctly.
 	//
 
-    g_pd3dDevice->SetRenderState( D3DRS_ZWRITEENABLE, FALSE );
+	// ????????????????????????????????????????????????????????
+	g_pd3dDevice->SetRenderState( D3DRS_ZWRITEENABLE, FALSE );
 
     g_pd3dDevice->SetRenderState( D3DRS_ALPHABLENDENABLE, TRUE );
     g_pd3dDevice->SetRenderState( D3DRS_DESTBLEND, D3DBLEND_ONE );
@@ -701,6 +702,7 @@ void render( void )
     // Reset render states...
 	//
 
+	// ?????????????????????????????????????????
     g_pd3dDevice->SetRenderState( D3DRS_ZWRITEENABLE, TRUE );
     g_pd3dDevice->SetRenderState( D3DRS_ALPHABLENDENABLE, FALSE );
 
